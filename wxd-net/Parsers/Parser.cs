@@ -5,6 +5,6 @@ namespace wxd.Parsers
 {
     public abstract class Parser
     {
-        public abstract IWeatherProduct Parse(IDecodeRequest request);
+        public abstract IWeatherProduct Parse();
     }
 }

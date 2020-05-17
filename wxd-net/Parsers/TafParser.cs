@@ -9,7 +9,14 @@ namespace wxd.Parsers
 {
     public class TafParser : Parser
     {
-        public override IWeatherProduct Parse(IDecodeRequest request)
+        private DecodeTafRequest _request;
+
+        public TafParser(IDecodeRequest request)
+        {
+            _request = (DecodeTafRequest)request;
+        }
+
+        public override IWeatherProduct Parse()
         {
             throw new NotImplementedException();
         }

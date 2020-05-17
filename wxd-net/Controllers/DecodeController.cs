@@ -41,8 +41,8 @@ namespace wxd.Controllers
 
         private IDecodeResponse HandleGetInternal(IDecodeRequest request, WeatherProductType productType)
         {
-            var parser = ParserFactory.CreateParser(productType);
-            IWeatherProduct result = parser.Parse(request);
+            var parser = ParserFactory.CreateParser(request, productType);
+            IWeatherProduct result = parser.Parse();
             return ResponseFactory.CreateResponse(result);
         }
     }

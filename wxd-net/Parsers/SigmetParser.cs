@@ -6,7 +6,12 @@ namespace wxd.Parsers
 {
     public class SigmetParser : Parser
     {
-        public override IWeatherProduct Parse(IDecodeRequest request)
+        private DecodeSigmetRequest _request;
+        public SigmetParser(IDecodeRequest request)
+        {
+            _request = (DecodeSigmetRequest)request;
+        }
+        public override IWeatherProduct Parse()
         {
             throw new NotImplementedException();
         }

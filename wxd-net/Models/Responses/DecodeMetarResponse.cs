@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace wxd.Models.Responses
 {
@@ -6,10 +7,12 @@ namespace wxd.Models.Responses
     {
         [JsonPropertyName("original_metar")]
         public string OriginalMetar { get; set; }
+        public Dictionary<string, object> Tokens { get; set; }
         
         public DecodeMetarResponse(Metar metar)
         {
-            this.OriginalMetar = metar.OriginalMetar;
+            OriginalMetar = metar.OriginalMetar;
+            Tokens = metar.Tokens;
         }
     }
 }
