@@ -16,5 +16,10 @@ c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.dll
 c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.pdb
 c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.genruntimeconfig.cache
 c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.csprojAssemblyReference.cache
+c:\dev\wxd-net\wxd-net\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+c:\dev\wxd-net\wxd-net\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+c:\dev\wxd-net\wxd-net\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+c:\dev\wxd-net\wxd-net\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.csproj.CoreCompileInputs.cache
 c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.MvcApplicationPartsAssemblyInfo.cache
+c:\dev\wxd-net\wxd-net\obj\Debug\netcoreapp3.1\wxd-net.csproj.CopyComplete

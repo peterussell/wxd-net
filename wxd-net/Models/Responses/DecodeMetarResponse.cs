@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace WXD.Models.Responses
 {
-    public class DecodeMetarResponse
+    public class DecodeMetarResponse : IDecodeResponse
     {
         [JsonPropertyName("original_metar")]
         public string OriginalMetar { get; set; }
