@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace WXD.Models.Responses
+﻿namespace WXD.Models.Requests
 {
     public class DecodeMetarRequest
     {

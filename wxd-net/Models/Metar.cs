@@ -1,11 +1,14 @@
-﻿namespace WXD.Models
+﻿using WXD.Models.Requests;
+
+namespace WXD.Models
 {
-    public class Metar
+    public class Metar : IWeatherProduct
     {
-        public string Type { get; private set; }
-        public Metar(string encodedMetar)
+        public string OriginalMetar { get; private set; }
+
+        public Metar(DecodeMetarRequest request)
         {
-            this.Type = encodedMetar;
+            this.OriginalMetar = request.Metar;
         }
     }
 }

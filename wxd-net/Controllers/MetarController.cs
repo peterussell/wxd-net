@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using WXD.Models;
+using WXD.Models.Requests;
 using WXD.Models.Responses;
+using WXD.Parsers;
 
 namespace WXD.Controllers
 {
@@ -18,9 +21,9 @@ namespace WXD.Controllers
         [HttpGet]
         public ActionResult<DecodeMetarResponse> Get([FromBody] DecodeMetarRequest request)
         {
-            var res = new DecodeMetarResponse();
-            res.type = "METAR";
-            return res;
+            var parser = new MetarParser();
+            Metar metar = (Metar)parser.Parse(request);
+            return new DecodeMetarResponse(metar);
         }   
     }
 }
