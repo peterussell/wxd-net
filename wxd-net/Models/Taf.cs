@@ -1,6 +1,6 @@
-﻿using WXD.Models.Requests;
+﻿using wxd.Models.Requests;
 
-namespace WXD.Models
+namespace wxd.Models
 {
     public class Taf : IWeatherProduct
     {

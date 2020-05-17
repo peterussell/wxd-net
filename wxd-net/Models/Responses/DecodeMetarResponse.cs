@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace WXD.Models.Responses
+namespace wxd.Models.Responses
 {
     public class DecodeMetarResponse : IDecodeResponse
     {

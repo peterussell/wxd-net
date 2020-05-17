@@ -1,7 +1,7 @@
 ﻿using System;
-using WXD.Models.Requests;
+using wxd.Models.Requests;
 
-namespace WXD.Models
+namespace wxd.Models
 {
     public class Metar : IWeatherProduct
     {
@@ -11,9 +11,9 @@ namespace WXD.Models
         }
         public string OriginalMetar { get; private set; }
 
-        public Metar(DecodeMetarRequest request)
+        public Metar(string originalMetar)
         {
-            this.OriginalMetar = request.Metar;
+            this.OriginalMetar = originalMetar;
         }
     }
 }

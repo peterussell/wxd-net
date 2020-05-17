@@ -1,4 +1,4 @@
-﻿namespace WXD.Models.Requests
+﻿namespace wxd.Models.Requests
 {
     public class DecodeMetarRequest : IDecodeRequest
     {

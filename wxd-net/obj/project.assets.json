@@ -5569,9 +5569,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\wxd-net\\wxd-net\\wxd-net.csproj",
-      "projectName": "wxd-net",
-      "projectPath": "c:\\dev\\wxd-net\\wxd-net\\wxd-net.csproj",
+      "projectUniqueName": "c:\\dev\\wxd-net\\wxd-net\\wxd.csproj",
+      "projectName": "wxd",
+      "projectPath": "c:\\dev\\wxd-net\\wxd-net\\wxd.csproj",
       "packagesPath": "C:\\Users\\pinkb\\.nuget\\packages\\",
       "outputPath": "c:\\dev\\wxd-net\\wxd-net\\obj\\",
       "projectStyle": "PackageReference",

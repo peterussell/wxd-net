@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WXD.Models;
-using WXD.Models.Requests;
+using wxd.Models;
+using wxd.Models.Requests;
 
-namespace WXD.Parsers
+namespace wxd.Parsers
 {
     public class TafParser : Parser
     {

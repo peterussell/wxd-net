@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFec9Y243uMC49AiLAYjVovnKPLqd1N3vHHq81l0gJvudMXfv/L8BWb05ObkN6mff73ZYGAT7FO8pguUxXQ9cg==",
+  "dgSpecHash": "G+BGZo2of6PCFHWTl29+lAfTGffvyDLjI9lwgRYXhap9+yh1eViekcJPdlVx+qfUiAO+/ejTFePICVYtmWliqg==",
   "success": true,
-  "projectFilePath": "c:\\dev\\wxd-net\\wxd-net\\wxd-net.csproj",
+  "projectFilePath": "c:\\dev\\wxd-net\\wxd-net\\wxd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pinkb\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\pinkb\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

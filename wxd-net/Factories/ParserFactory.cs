@@ -1,8 +1,8 @@
 ﻿using System;
-using WXD.Models;
-using WXD.Parsers;
+using wxd.Models;
+using wxd.Parsers;
 
-namespace WXD.Factories
+namespace wxd.Factories
 {
     public class ParserFactory
     {

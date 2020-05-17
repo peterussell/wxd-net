@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxd-net", "wxd-net\wxd-net.csproj", "{BE654DCB-E408-4EDC-929F-D1AB731F4972}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxd", "wxd-net\wxd.csproj", "{BE654DCB-E408-4EDC-929F-D1AB731F4972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxd.Tests", "wxd-net.Tests\wxd.Tests.csproj", "{B1255BE2-BB60-41F8-85A3-E5AD8A4F36BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BE654DCB-E408-4EDC-929F-D1AB731F4972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE654DCB-E408-4EDC-929F-D1AB731F4972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE654DCB-E408-4EDC-929F-D1AB731F4972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1255BE2-BB60-41F8-85A3-E5AD8A4F36BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1255BE2-BB60-41F8-85A3-E5AD8A4F36BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1255BE2-BB60-41F8-85A3-E5AD8A4F36BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1255BE2-BB60-41F8-85A3-E5AD8A4F36BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

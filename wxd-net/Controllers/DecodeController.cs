@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WXD.Factories;
-using WXD.Models;
-using WXD.Models.Requests;
-using WXD.Models.Responses;
+using wxd.Factories;
+using wxd.Models;
+using wxd.Models.Requests;
+using wxd.Models.Responses;
 
-namespace WXD.Controllers
+namespace wxd.Controllers
 {
     [ApiController]
     [Route("decode")]

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WXD.Models;
-using WXD.Models.Responses;
+using wxd.Models;
+using wxd.Models.Responses;
 
-namespace WXD.Factories
+namespace wxd.Factories
 {
     public class ResponseFactory
     {

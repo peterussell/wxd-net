@@ -1,4 +1,4 @@
-﻿namespace WXD.Models
+﻿namespace wxd.Models
 {
     public interface IWeatherProduct
     {
